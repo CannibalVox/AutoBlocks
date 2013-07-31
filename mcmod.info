@@ -1,0 +1,17 @@
+[
+    {
+        "name": "IconTweaks", 
+        "url": "", 
+        "version": "dev1", 
+        "modid": "IconTweaks", 
+        "mcversion": "1.6.2", 
+        "dependencies": [
+            "Forge",
+	    "ForgeMultipart"
+        ], 
+	"authors": [
+		"iconmaster"
+	],
+        "description": "A cuttable block autodetector like Immibis's Microblocks for ChickenBones's Microblocks."
+    }
+]
