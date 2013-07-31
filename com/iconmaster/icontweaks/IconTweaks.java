@@ -3,6 +3,8 @@ package com.iconmaster.icontweaks;
 
 import java.util.ArrayList;
 
+import scala.collection.Seq;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -44,7 +46,7 @@ public class IconTweaks {
             		for (int meta = 0;meta<=metas.size()-1;meta++) {
 	            		try {
 	            			System.out.println("[ICONTWEAKS] Registering ID " + id + ":" + meta);
-	            			MicroMaterialRegistry.registerMaterial(new BlockMicroMaterial(Block.blocksList[id],meta), Block.blocksList[id].getUnlocalizedName()+"_"+meta);
+	            			MicroMaterialRegistry.registerMaterial(new DynamicMicro(Block.blocksList[id],meta), Block.blocksList[id].getUnlocalizedName()+"_"+meta);
 	            		} catch (Exception ex) {
 	            			
 	            		}
