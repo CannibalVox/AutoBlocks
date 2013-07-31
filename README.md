@@ -11,7 +11,7 @@ This mod is extremly proof-of-concept. There are some major bugs. I don't even k
 Known Bugs
 ==========
 
-* Really odd blokcs (like Levers and Saplings) can be cutted.
+* Really odd blokcs (like Levers and Saplings) can be cut.
 * Crashes upon attempting to cut up items with missing textures.
 * NEI freaks out graphically when attempting to look at some added blocks.
 
