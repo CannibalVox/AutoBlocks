@@ -48,6 +48,7 @@ public class IconTweaks {
 	            		try {
 	            			System.out.println("[ICONTWEAKS] Registering ID " + id + ":" + meta);
 	            			MicroMaterialRegistry.registerMaterial(new DynamicMicro(Block.blocksList[id],meta), Block.blocksList[id].getUnlocalizedName()+"_"+meta);
+	            			//MicroMaterialRegistry.registerMaterial(new BlockMicroMaterial(Block.blocksList[id],meta), Block.blocksList[id].getUnlocalizedName()+"_"+meta);
 	            		} catch (Exception ex) {
 	            			
 	            		}
