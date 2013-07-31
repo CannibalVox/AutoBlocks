@@ -2,6 +2,7 @@ package com.iconmaster.icontweaks;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 import scala.collection.Seq;
 
@@ -39,8 +40,8 @@ public class IconTweaks {
     @EventHandler
     public void load(FMLInitializationEvent event) {
             proxy.registerRenderers();
-            for (int id=1;id<4096;id++) {
-            	if (Block.blocksList[id] != null && Block.blocksList[id].isOpaqueCube()) {
+            for (int id=159;id<4096;id++) {
+            	if (Block.blocksList[id] != null && Block.blocksList[id].isOpaqueCube() && MicroMaterialRegistry.materialID(Block.blocksList[id].getUnlocalizedName())==0) {
             		ArrayList metas = new ArrayList();
             		Block.blocksList[id].getSubBlocks(id,null,metas);
             		for (int meta = 0;meta<=metas.size()-1;meta++) {
