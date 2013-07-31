@@ -40,7 +40,7 @@ public class IconTweaks {
     public void load(FMLInitializationEvent event) {
             proxy.registerRenderers();
             for (int id=1;id<4096;id++) {
-            	if (Block.blocksList[id] != null) {
+            	if (Block.blocksList[id] != null && Block.blocksList[id].isOpaqueCube()) {
             		ArrayList metas = new ArrayList();
             		Block.blocksList[id].getSubBlocks(id,null,metas);
             		for (int meta = 0;meta<=metas.size()-1;meta++) {
