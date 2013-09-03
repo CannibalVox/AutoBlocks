@@ -1,19 +1,17 @@
 IconTweaks
 ==========
 
-A cuttable block autodetector like Immibis's Microblocks for ChickenBones's Microblocks.
+A cuttable block autodetector like Immibis's Microblocks for ForgeMultipart.
 
 Important Info
 ==============
 
-This mod is extremly proof-of-concept. There are some major bugs. I don't even know if it works on all systems. You have been warned.
+This mod adds all obpaque cubic blocks to the list of possible blocks to cut. It isn't 100% percent perfect, but it's a robust tool to help with ForgeMultipart's functionality.
 
 Known Bugs
 ==========
 
-* Really odd blokcs (like Levers and Saplings) can be cut.
-* Crashes upon attempting to cut up items with missing textures.
-* NEI freaks out graphically when attempting to look at some added blocks.
+* Adding/reomving new mods with blocks may upset current microbloc placement.
 
 Download (MC 1.6.2)
 ===================
