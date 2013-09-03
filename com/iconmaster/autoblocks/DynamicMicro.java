@@ -1,4 +1,4 @@
-package com.iconmaster.icontweaks;
+package com.iconmaster.autoblocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.Tessellator;
@@ -17,14 +17,11 @@ import codechicken.microblock.BlockMicroMaterial;
 import codechicken.microblock.MicroMaterialRegistry.IMicroMaterial;
 import codechicken.microblock.Microblock;
 
-//public class DynamicMicro implements IMicroMaterial {
 public class DynamicMicro extends BlockMicroMaterial {
 	
-	//public Block target;
 	
 	public DynamicMicro(Block target, int meta) {
 		super(target, meta);
-		//this.target = target;
 		this.loadIcons();
 	}
 	

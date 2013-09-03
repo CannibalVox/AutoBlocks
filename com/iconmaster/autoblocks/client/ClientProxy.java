@@ -1,6 +1,6 @@
-package com.iconmaster.icontweaks.client;
+package com.iconmaster.autoblocks.client;
 
-import com.iconmaster.icontweaks.CommonProxy;
+import com.iconmaster.autoblocks.CommonProxy;
 
 public class ClientProxy extends CommonProxy {
     public void registerRenderers() {
