@@ -1,4 +1,4 @@
-IconTweaks
+AutoBlcoks
 ==========
 
 A cuttable block autodetector like Immibis's Microblocks for ForgeMultipart.
