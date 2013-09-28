@@ -2,7 +2,7 @@
     {
         "name": "AutoBlocks", 
         "url": "", 
-        "version": "dev2", 
+        "version": "1.0.0", 
         "modid": "AutoBlocks", 
         "mcversion": "1.6.2", 
         "dependencies": [

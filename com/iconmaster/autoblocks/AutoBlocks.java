@@ -25,7 +25,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 
-@Mod(modid = "AutoBlocks", name = "AutoBlocks", version = "dev2")
+@Mod(modid = "AutoBlocks", name = "AutoBlocks", version = "1.0.0")
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
 public class AutoBlocks {
     @Instance("IconTweaks")
